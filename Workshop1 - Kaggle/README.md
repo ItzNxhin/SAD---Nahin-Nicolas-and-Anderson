@@ -8,6 +8,6 @@ https://www.kaggle.com/competitions/nfl-player-contact-detection
 
 ## Aditional Sources
 
-Diagram with draw.io: https://app.diagrams.net/
-Additional context: https://www.nfl.com/playerhealthandsafety/
-Additonal information about helmets: https://www.nfl.com/playerhealthandsafety/equipment-and-innovation/engineering-technology/helmet-innovation-continued-advancements-to-keep-players-safe
+- Diagram with draw.io: https://app.diagrams.net/
+- Additional context: https://www.nfl.com/playerhealthandsafety/
+- Additonal information about helmets: https://www.nfl.com/playerhealthandsafety/equipment-and-innovation/engineering-technology/helmet-innovation-continued-advancements-to-keep-players-safe
