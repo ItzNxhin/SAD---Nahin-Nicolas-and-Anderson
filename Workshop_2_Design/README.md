@@ -1,6 +1,6 @@
-## Kaggle Systems Engineering Analysis
+## Kaggle Systems Design
 
-https://github.com/EngAndres/ud-public/blob/main/courses/systems-analysis/workshops/Workshop_1.pdf
+https://github.com/ItzNxhin/SAD---Nahin-Nicolas-and-Anderson/blob/main/Workshop_2_Design/Workshop_2.pdf
 
 ## Kaggle Competetion 
 
@@ -8,16 +8,24 @@ https://www.kaggle.com/competitions/nfl-player-contact-detection
 
 ## Aditional Sources
 
+- Workshop 1: https://github.com/ItzNxhin/SAD---Nahin-Nicolas-and-Anderson/tree/main/Workshop1%20-%20Kaggle
 - Diagram with draw.io: https://app.diagrams.net/
 - Additional context: https://www.nfl.com/playerhealthandsafety/
-- Additonal information about helmets: https://www.nfl.com/playerhealthandsafety/equipment-and-innovation/engineering-technology/helmet-innovation-continued-advancements-to-keep-players-safe
+- Competion Winner repository: https://github.com/nvnnghia/1st_place_kaggle_player_contact_detection
 
-## How the analysis was carried out?
+## Workshop development
 
-First, we carefully studied the main problem to understand exactly what we needed to analyze. We identified all the important terms and system behaviors related to tracking player contacts. This helped us create a first diagram that served as our visual guide throughout the project.
+- [PDF Report](https://github.com/ItzNxhin/SAD---Nahin-Nicolas-and-Anderson/blob/main/Workshop_2_Design/Workshop_2_report.pdf)
+- [Workshop - 2 - Diagram](https://github.com/ItzNxhin/SAD---Nahin-Nicolas-and-Anderson/blob/main/Workshop_2_Design/Workshop2_diagram.png)
 
-Next, we examined how the system would be used in real situations. This helped us separate what was truly important from what wasn't necessary. We defined the system's key components and how they would work together, removing any elements that our team discussions and feedback showed were either repeating other functions or beyond our project's scope.
+## Summary
 
-A very important step was finding the system's weak points and places where errors or problems might occur. We marked these as areas that would need special attention later. To work more efficiently, we divided the documentation work among team members based on each person's strengths, giving everyone the sections they could handle best.
+Our analysis began with a detailed review of the main problem: tracking player contacts using sensor and video data. We started by identifying key system behaviors and terms, which allowed us to construct an initial diagram as a visual foundation for our work. This helped clarify the project’s scope and allowed the team to stay focused on what was most relevant.
 
-Finally, we did group review sessions to make sure we all used the same technical terms, fix any mistakes, and check that everything in our analysis made sense together. This team approach helped us create complete documentation that not only explained how the contact tracking system would work, but also predicted where challenges might appear.
+We studied how the system would operate under real conditions, and through team discussions, we refined the system by removing redundant or unnecessary components. We prioritized elements that contributed directly to contact detection and real-time processing.
+
+A major reference point for us was the winning solution of the Kaggle competition. We analyzed their approach carefully and selected technologies that would work within our constraints—especially hardware limitations. This meant using lightweight, CPU-friendly tools like MobileNet SSD for object detection, OpenCV for video tracking, and RandomForest from Scikit-learn for contact classification. We also relied on Jupyter notebooks for step-by-step execution, which made collaboration and testing easier.
+
+The analysis also included identifying system vulnerabilities—such as data imbalance, video occlusions, and synchronization issues between sensor and video data. These were flagged as critical areas for attention. To address them, we integrated basic monitoring routines, ensured modularity through design patterns like Factory and Observer, and emphasized interpretability and maintainability.
+
+Throughout, we divided responsibilities among team members, leveraging individual strengths. Final review sessions helped us align terminology, validate our design choices, and ensure that the documentation reflected both the functional system and the reasoning behind our decisions.
