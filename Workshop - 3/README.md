@@ -39,7 +39,7 @@ This simulation demonstrates a modular, lightweight approach to NFL player conta
 ## Report
 
 - **Full Simulation Report (PDF):**  
-  [NFL Contact Detection Simulation Report.pdf](./NFL%20Contact%20Detection%20Simulation%20Report.pdf)
+  [NFL Contact Detection Simulation Report.pdf](https://github.com/ItzNxhin/SAD---Nahin-Nicolas-and-Anderson/blob/main/Workshop%20-%203/Simulation%20Report.pdf)
 - **Markdown Source:**  
   [NFL Contact Detection Simulation Report.markdown](./NFL%20Contact%20Detection%20Simulation%20Report.markdown)
 
