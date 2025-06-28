@@ -43,8 +43,3 @@ This simulation demonstrates a modular, lightweight approach to NFL player conta
 - **Markdown Source:**  
   [NFL Contact Detection Simulation Report.markdown](./NFL%20Contact%20Detection%20Simulation%20Report.markdown)
 
-The report details the simulation scenario, system design, implementation, results, and lessons learned.
-
----
-
-For more details, see the [full report PDF](./NFL%20Contact%20Detection%20Simulation%20Report.pdf) in this folder.
